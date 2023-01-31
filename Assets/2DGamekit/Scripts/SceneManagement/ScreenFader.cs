@@ -46,6 +46,7 @@ namespace Gamekit2D
         public CanvasGroup faderCanvasGroup;
         public CanvasGroup loadingCanvasGroup;
         public CanvasGroup gameOverCanvasGroup;
+        
         public float fadeDuration = 1f;
 
         protected bool m_IsFading;

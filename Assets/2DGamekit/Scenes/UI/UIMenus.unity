@@ -173,14 +173,39 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114226646182521966, guid: 28fdaedf686cb394ba208418f1942254,
+    - target: {fileID: 114078172350129588, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
-      propertyPath: m_havePropertiesChanged
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114104583395121474, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114104583395121474, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114226646182521966, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114226646182521966, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
       propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114245739230805170, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114245739230805170, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114275862507780362, guid: 28fdaedf686cb394ba208418f1942254,
@@ -241,6 +266,21 @@ PrefabInstance:
     - target: {fileID: 114341213288388032, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
       propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114351978140959654, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114403321449621082, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114403321449621082, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114461327402825228, guid: 28fdaedf686cb394ba208418f1942254,
@@ -261,6 +301,16 @@ PrefabInstance:
     - target: {fileID: 114476472205700610, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
       propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114587301329109964, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114587301329109964, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114595646391040606, guid: 28fdaedf686cb394ba208418f1942254,
@@ -567,14 +617,17 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 28fdaedf686cb394ba208418f1942254, type: 3}
 --- !u!21 &965614880
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Rajdhani-SemiBold SDF UIButton (Instance)
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: GLOW_ON MASK_SOFT
+  m_ValidKeywords:
+  - GLOW_ON
+  m_InvalidKeywords:
+  - MASK_SOFT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -605,6 +658,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Ambient: 0.5
     - _Bevel: 0.5
@@ -669,14 +723,17 @@ Material:
   m_BuildTextureStacks: []
 --- !u!21 &1520285756
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Rajdhani-SemiBold SDF UIButton (Instance)
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: GLOW_ON MASK_SOFT
+  m_ValidKeywords:
+  - GLOW_ON
+  m_InvalidKeywords:
+  - MASK_SOFT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -707,6 +764,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Ambient: 0.5
     - _Bevel: 0.5
@@ -771,14 +829,17 @@ Material:
   m_BuildTextureStacks: []
 --- !u!21 &2035867349
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Rajdhani-SemiBold SDF UIButton (Instance)
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: GLOW_ON MASK_SOFT
+  m_ValidKeywords:
+  - GLOW_ON
+  m_InvalidKeywords:
+  - MASK_SOFT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -809,6 +870,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Ambient: 0.5
     - _Bevel: 0.5
