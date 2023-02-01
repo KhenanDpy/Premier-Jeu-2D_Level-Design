@@ -338,9 +338,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1532715460020136, guid: 28fdaedf686cb394ba208418f1942254, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542943337530926, guid: 28fdaedf686cb394ba208418f1942254, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548274483743990, guid: 28fdaedf686cb394ba208418f1942254, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1697510742375918, guid: 28fdaedf686cb394ba208418f1942254, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873479781496664, guid: 28fdaedf686cb394ba208418f1942254, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114000677385633796, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
@@ -366,6 +382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 114226646182521966, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_text
+      value: Volume de la musique
       objectReference: {fileID: 0}
     - target: {fileID: 114226646182521966, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
@@ -472,6 +493,23 @@ PrefabInstance:
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
+    - target: {fileID: 114476472205700610, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_text
+      value: "Q - Bouger \xE0 gauche\nD - Bouger \xE0 droite\nZ - Regarder en haut\nS
+        - Regarder en bas/Passer \xE0 travers une plateforme\nBarre d'espace - Sauter\nO
+        - Attaque \xE0 distance\nK - Attaque de m\xEAl\xE9e\nEsc - Pause"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114476472205700610, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595646391040606, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_text
+      value: "Volume des effets sp\xE9ciaux"
+      objectReference: {fileID: 0}
     - target: {fileID: 114595646391040606, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
       propertyPath: m_textAlignment
@@ -536,6 +574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 114860965058218842, guid: 28fdaedf686cb394ba208418f1942254,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114909145059062880, guid: 28fdaedf686cb394ba208418f1942254,
         type: 3}
